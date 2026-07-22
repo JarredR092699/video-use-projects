@@ -1,0 +1,12 @@
+.DS_Store
+
+# regenerable render intermediates (rebuilt by render.py from source + edl.json)
+**/edit/clips_preview/
+**/edit/clips_graded/
+**/edit/clips_draft/
+**/edit/base.mp4
+**/edit/base_preview.mp4
+**/edit/base_draft.mp4
+**/edit/*.prenorm.mp4
+**/edit/verify/
+**/edit/_concat.txt

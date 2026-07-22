@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "sources": {
+    "carrotai-test": "/Users/jarredrobidoux/Documents/content/7.21.26/carrotai-test.mov"
+  },
+  "ranges": [
+    {"source": "carrotai-test", "start": 3.730, "end": 14.570,
+     "beat": "INTRO", "quote": "Our podcast is The Growth Garden by Carrot...",
+     "reason": "S1 answer only. 30ms lead pad (S0 question ends 3.700), 150ms trail pad before next S0 turn."},
+    {"source": "carrotai-test", "start": 24.650, "end": 27.610,
+     "beat": "VOO_STUDIO_A", "quote": "The VOO Studio is one of my favorite parts of working at,",
+     "reason": "Cut the false start ('The VOOS--') and throat-clear (21.04-24.48), starting clean at the restart. 90ms lead pad into a 260ms natural gap."},
+    {"source": "carrotai-test", "start": 27.910, "end": 51.030,
+     "beat": "VOO_STUDIO_B", "quote": "this incubator. So Spark Labs has set it up...",
+     "reason": "Removed 'uh,' (27.66-27.88) - only 100ms/60ms of natural gap either side, so the cut lands 50ms/30ms into each. 150ms trail pad unchanged."},
+    {"source": "carrotai-test", "start": 86.990, "end": 113.670,
+     "beat": "GUEST_PLUG_2", "quote": "Yeah, coming up on The Growth Garden... We appreciate him being our first guest.",
+     "reason": "50ms lead pad (S0 'No, you're good.' ends 86.940), 150ms trail pad before closing 'Okay.'"}
+  ],
+  "grade": "none",
+  "overlays": [],
+  "subtitles": "master.srt",
+  "total_duration_s": 63.90
+}

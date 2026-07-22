@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "sources": {
+    "video-use-v1": "/Users/jarredrobidoux/Documents/content/7.19.26/video-use-v1.mov"
+  },
+  "ranges": [
+    {"source": "video-use-v1", "start": 0.329, "end": 0.820,
+     "beat": "OPEN", "quote": "All right.",
+     "reason": "50ms/80ms pad around the phrase; kept as-is."},
+    {"source": "video-use-v1", "start": 1.339, "end": 2.339,
+     "beat": "GREETING", "quote": "Good morning, guys.",
+     "reason": "Tightened the 660ms gap before it down to a 60ms pad."},
+    {"source": "video-use-v1", "start": 3.139, "end": 3.560,
+     "beat": "FILLER", "quote": "Um,",
+     "reason": "Kept — reads as authentic, not a slip. Tightened surrounding gaps."},
+    {"source": "video-use-v1", "start": 5.079, "end": 8.709,
+     "beat": "HOOK", "quote": "today we're gonna see if Claude Code can edit this entire video",
+     "reason": "Tightened the 1.66s gap after 'Um,' down to a 60ms pad. Trailing dead air (video ran to 9.77s, speech ends 8.56s) cut, leaving a 150ms hold after the last word."}
+  ],
+  "grade": "none",
+  "overlays": [],
+  "subtitles": "master.srt",
+  "total_duration_s": 5.542
+}
