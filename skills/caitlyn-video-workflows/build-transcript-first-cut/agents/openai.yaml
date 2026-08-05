@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Transcript and First Cut"
+  short_description: "Turn source footage into a reversible base cut"
+  default_prompt: "Use $build-transcript-first-cut to transcribe this video and prepare a reversible CapCut-ready base cut."
