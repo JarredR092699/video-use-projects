@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Captions and Handoff"
+  short_description: "Validate captions and package an editable handoff"
+  default_prompt: "Use $prepare-captions-handoff to validate captions, make a preview when possible, and prepare an editable marketing handoff."

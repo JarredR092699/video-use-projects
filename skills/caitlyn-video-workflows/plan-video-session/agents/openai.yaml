@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Video Session"
+  short_description: "Collect essentials and plan a video session"
+  default_prompt: "Use $plan-video-session to collect the minimum intake and create a session plan."

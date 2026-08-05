@@ -1,0 +1,27 @@
+{
+  "name": "video-use-caption-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare:sample": "node scripts/prepare-input.mjs --edl ../personal/7.30.26/edit/edl_linkedin.json --transcript '../personal/7.30.26/edit/transcripts/2026-07-30 14-40-48.json' --srt ../personal/7.30.26/edit/master_linkedin.srt --out generated/sample.json --export-srt generated/sample.srt",
+    "studio": "npm run prepare:sample && remotion studio src/index.ts --props=generated/sample.json --public-dir=..",
+    "render:clean": "npm run prepare:sample && remotion render src/index.ts CleanCut out/sample-clean.mp4 --props=generated/sample.json --public-dir=..",
+    "render:captioned": "npm run prepare:sample && remotion render src/index.ts CaptionedCut out/sample-captioned.mp4 --props=generated/sample.json --public-dir=..",
+    "test": "node --test test/*.test.mjs && npm run typecheck",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.357",
+    "@remotion/media": "4.0.357",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.357",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "24.10.1",
+    "typescript": "5.9.3"
+  }
+}
